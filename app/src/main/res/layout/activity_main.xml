@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+
+        android:id="@+id/main_btn_reg_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#82B1FF"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        android:text="تسجيل مواد"
+
+        />
+
+    <Button
+        android:id="@+id/main_btn_wal_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#82B1FF"
+        android:text="سحب مواد"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/main_btn_show_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#82B1FF"
+        android:text="عرض المواد"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/main_btn_details_std"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#82B1FF"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        android:text="تفاصيل الطالب"
+
+        />
+
+    <Button
+        android:id="@+id/main_btn_log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#82B1FF"
+        android:text="تسحيل الخروج"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
